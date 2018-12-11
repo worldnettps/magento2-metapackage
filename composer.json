@@ -1,0 +1,28 @@
+{
+    "name": "worldnettps/product-payment-gateway",
+    "description": "N/A",
+    "version": "1.0.0",
+    "type": "metapackage",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "repositories": {
+        "magento2-module-payment": {
+            "type": "vcs",
+            "url": "https://github.com/bogdanbondane/magento2-module-payment.git"
+        },
+        "magento2-module-secure-card": {
+            "type": "vcs",
+            "url": "https://github.com/bogdanbondane/magento2-module-secure-card.git"
+        },
+        "magento2-module-subscription": {
+            "type": "vcs",
+            "url": "https://github.com/bogdanbondane/magento2-module-subscription.git"
+        }
+    },
+    "require": {
+        "worldnettps/module-payment": "dev-master",
+        "worldnettps/module-secure-card": "dev-master",
+        "worldnettps/module-subscription": "dev-master"
+    }
+}
