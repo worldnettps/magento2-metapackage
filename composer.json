@@ -9,15 +9,15 @@
     "repositories": {
         "magento2-module-payment": {
             "type": "vcs",
-            "url": "https://github.com/bogdanbondane/magento2-module-payment.git"
+            "url": "https://github.com/worldnettps/magento2-module-payment.git"
         },
         "magento2-module-secure-card": {
             "type": "vcs",
-            "url": "https://github.com/bogdanbondane/magento2-module-secure-card.git"
+            "url": "https://github.com/worldnettps/magento2-module-secure-card.git"
         },
         "magento2-module-subscription": {
             "type": "vcs",
-            "url": "https://github.com/bogdanbondane/magento2-module-subscription.git"
+            "url": "https://github.com/worldnettps/magento2-module-subscription.git"
         }
     },
     "require": {
