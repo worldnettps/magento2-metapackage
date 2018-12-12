@@ -6,38 +6,6 @@
     "license": [
         "GPL-3.0-or-later"
     ],
-    "packages": {
-        "worldnettps/module-payment": {
-		"1.4.1": { 
-		    "name": "worldnettps/module-payment",
-		    "version": "1.4.1",
-		    "dist": {
-			"url": "https://github.com/worldnettps/magento2-module-payment.git",
-			"type": "vcs"
-		    }
- 		}
-	},
-        "worldnettps/module-secure-card": {
-		"1.0.0": { 
-		    "name": "worldnettps/module-secure-card",
-		    "version": "1.0.0",
-		    "dist": {
-			"url": "https://github.com/worldnettps/magento2-module-secure-card.git",
-			"type": "vcs"
-		    }
- 		}
-	},
-        "worldnettps/module-secure-card": {
-		"1.0.0": { 
-		    "name": "worldnettps/module-secure-card",
-		    "version": "1.0.0",
-		    "dist": {
-			"url": "https://github.com/worldnettps/magento2-module-secure-card.git",
-			"type": "vcs"
-		    }
- 		}
-	}
-    },
     "require": {
         "worldnettps/module-payment": "1.4.1",
         "worldnettps/module-secure-card": "1.0.0",
