@@ -7,8 +7,8 @@
         "GPL-3.0-or-later"
     ],
     "require": {
-        "worldnettps/module-payment": "1.4.1",
-        "worldnettps/module-secure-card": "1.0.0",
-        "worldnettps/module-subscription": "1.0.0"
+        "worldnettps/module-payment": "dev-master",
+        "worldnettps/module-secure-card": "dev-master",
+        "worldnettps/module-subscription": "dev-master"
     }
 }
