@@ -1,14 +1,21 @@
 {
-    "name": "worldnettps/payment-gateway",
+    "name": "worldnettps/product-payment-gateway",
     "description": "N/A",
     "version": "1.0.0",
     "type": "metapackage",
     "license": [
         "GPL-3.0-or-later"
     ],
+    "authors": [
+        {
+            "name": "WorldNetTPS",
+            "email": "support@worldnettps.com",
+            "homepage": "https://worldnettps.com/"
+        }
+    ],
     "require": {
-        "worldnettps/module-payment": "dev-master",
-        "worldnettps/module-secure-card": "dev-master",
-        "worldnettps/module-subscription": "dev-master"
+        "worldnettps/module-payment": "1.5",
+        "worldnettps/module-secure-card": "1.0.0",
+        "worldnettps/module-subscription": "1.0.0"
     }
 }
