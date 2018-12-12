@@ -19,10 +19,5 @@
             "type": "vcs",
             "url": "https://github.com/worldnettps/magento2-module-subscription.git"
         }
-    },
-    "require": {
-        "worldnettps/module-payment": "master",
-        "worldnettps/module-secure-card": "dev-master",
-        "worldnettps/module-subscription": "dev-master"
     }
 }
