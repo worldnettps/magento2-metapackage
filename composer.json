@@ -21,12 +21,12 @@
         }
     },
     "packages": {
-        "worldnettps/module-payment": "dev-master",
-        "worldnettps/module-secure-card": "dev-master",
-        "worldnettps/module-subscription": "dev-master"
+        "worldnettps/module-payment": {"dev-master": { @composer.json }},
+        "worldnettps/module-secure-card": {"dev-master": { @composer.json }},
+        "worldnettps/module-subscription": {"dev-master": { @composer.json }}
     },
     "require": {
-        "worldnettps/module-payment": "1.*",
+        "worldnettps/module-payment": "dev-master",
         "worldnettps/module-secure-card": "dev-master",
         "worldnettps/module-subscription": "dev-master"
     }
