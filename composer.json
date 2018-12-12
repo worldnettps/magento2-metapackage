@@ -21,7 +21,7 @@
         }
     },
     "require": {
-        "worldnettps/module-payment": "1.4.0",
+        "worldnettps/module-payment": "master",
         "worldnettps/module-secure-card": "dev-master",
         "worldnettps/module-subscription": "dev-master"
     }
