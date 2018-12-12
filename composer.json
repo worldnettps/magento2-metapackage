@@ -9,18 +9,18 @@
     "repositories": {
         "worldnettps/module-payment": {
             "type": "vcs",
-            "url": "https://github.com/worldnettps/magento2-module-payment.git"
+            "url": "https://github.com/worldnettps/magento2-module-payment"
         },
         "worldnettps/module-secure-card": {
             "type": "vcs",
-            "url": "https://github.com/worldnettps/magento2-module-secure-card.git"
+            "url": "https://github.com/worldnettps/magento2-module-secure-card"
         },
         "worldnettps/module-subscription": {
             "type": "vcs",
-            "url": "https://github.com/worldnettps/magento2-module-subscription.git"
+            "url": "https://github.com/worldnettps/magento2-module-subscription"
         }
     },
-    "packages": {
+    "require": {
         "worldnettps/module-payment": "dev-master",
         "worldnettps/module-secure-card": "dev-master",
         "worldnettps/module-subscription": "dev-master"
