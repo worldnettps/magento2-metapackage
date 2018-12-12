@@ -6,24 +6,37 @@
     "license": [
         "GPL-3.0-or-later"
     ],
-    "repositories": {
-        "worldnettps/module-payment": {
-            "type": "vcs",
-            "url": "https://github.com/worldnettps/magento2-module-payment.git"
-        },
-        "worldnettps/module-secure-card": {
-            "type": "vcs",
-            "url": "https://github.com/worldnettps/magento2-module-secure-card.git"
-        },
-        "worldnettps/module-subscription": {
-            "type": "vcs",
-            "url": "https://github.com/worldnettps/magento2-module-subscription.git"
-        }
-    },
     "packages": {
-        "worldnettps/module-payment": {"dev-master": { @composer.json }},
-        "worldnettps/module-secure-card": {"dev-master": { @composer.json }},
-        "worldnettps/module-subscription": {"dev-master": { @composer.json }}
+        "worldnettps/module-payment": {
+		"1.4.1": { 
+		    "name": "worldnettps/module-payment",
+		    "version": "1.4.1",
+		    "dist": {
+			"url": "https://github.com/worldnettps/magento2-module-payment.git",
+			"type": "vcs"
+		    }
+ 		}
+	},
+        "worldnettps/module-secure-card": {
+		"1.0.0": { 
+		    "name": "worldnettps/module-secure-card",
+		    "version": "1.0.0",
+		    "dist": {
+			"url": "https://github.com/worldnettps/magento2-module-secure-card.git",
+			"type": "vcs"
+		    }
+ 		}
+	},
+        "worldnettps/module-secure-card": {
+		"1.0.0": { 
+		    "name": "worldnettps/module-secure-card",
+		    "version": "1.0.0",
+		    "dist": {
+			"url": "https://github.com/worldnettps/magento2-module-secure-card.git",
+			"type": "vcs"
+		    }
+ 		}
+	}
     },
     "require": {
         "worldnettps/module-payment": "dev-master",
